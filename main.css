@@ -1,0 +1,45 @@
+@import url('http://necolas.github.io/normalize.css/3.0.2/normalize.css');
+
+/*General*/
+body {
+  background: #fff;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font: Helvetica Neue, Helvectica, Arial, serif;
+  font-weight: 300;
+  font-size: 40px;
+  font-variant: small-caps;
+  animation-fill-mode: all;
+  line-height: 1.5em;
+  color: #8d9aa5;
+}
+button{
+  font-size: 20px
+  padding: 7px 8px;
+  background-image: none;
+  border-radius: 20px;
+  width: 10%;
+  height: 50px;
+}
+.ctext{
+  font-size: 50px;
+}
+.calc{
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+button:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+#displaybox{
+  width: 40%;
+  border-radius: 6px;
+  z-index: 2;
+  height: 80px;
+}
+
+
