@@ -25,70 +25,80 @@ var number2= 0;
 
 
 num1.addEventListener('click', () => {
+	    displaybox.value = "";
 	    num += "1";
-	    displaybox.value = num;
+	    displaybox.value = 1;
 
 });
 num2.addEventListener('click', () => {
+	    displaybox.value = "";
 	    num += "2";
-	    displaybox.value = num;
+	    displaybox.value = 2;
 });
 num3.addEventListener('click', () => {
+	    displaybox.value = "";
 	    num += "3";
-	    displaybox.value = num;
+	    displaybox.value = 3;
 });
 num4.addEventListener('click', () => {
+	    displaybox.value = "";
 	    num += "4";
-	    displaybox.value = num;
+	    displaybox.value = 4;
 });
 num5.addEventListener('click', () => {
+	    displaybox.value = "";
 	    num += "5"
-	    displaybox.value = num;
+	    displaybox.value = 5;
 });
 num6.addEventListener('click', () => {
-        num += "6"
-	    displaybox.value = num;
+	    displaybox.value = "";
+      num += "6"
+	    displaybox.value = 6;
 });
 num7.addEventListener('click', () => {
+	    displaybox.value = "";
 	    num += "7"
-	    displaybox.value = num;
+	    displaybox.value = 7;
 });
 num8.addEventListener('click', () => {
+	    displaybox.value = "";
 	    num += "8"
-	    displaybox.value = num;
+	    displaybox.value = 8;
 });
 num9.addEventListener('click', () => {
+	    displaybox.value = "";
 	    num += "9"
-	    displaybox.value = num;
+	    displaybox.value = 9;
 });
 num0.addEventListener('click', () => {
-	     num += "0"
-	    displaybox.value = num;
+	    displaybox.value = "";
+	    num += "0"
+	    displaybox.value = 0;
 });
 addi.addEventListener('click', () => {
-	    number1 = parseInt(displaybox.value);
-	     num += "+"
-	    displaybox.value = num;
-	    displaybox.value = 0;
-	    alert(number1);
+	    displaybox.value = "";
+	    num += "+"
+	    displaybox.value = "+";
 });
 sub.addEventListener('click', () => {
-	    number2 = parseInt(displaybox.value);
-	     num += "-"
-	    displaybox.value = num;
-	    alert();
+	    displaybox.value = "";
+	    num += "-"
+	    displaybox.value = "-";
 	});
 divi.addEventListener('click', () => {
-	     num += "/"
-	    displaybox.value = num;
+	    displaybox.value = "";
+	    num += "/"
+	    displaybox.value = "/";
 });
 equal.addEventListener('click', () => { 
-	   
+	    displaybox.value = eval(num) 
+	    num="";
 });
-clearbox.addEventListener('click', () =>{
-    displaybox.value="";
+clear.addEventListener('click', () =>{
+      displaybox.value="";
+      num="";
 });
-      
+
 
 
 function add(number1, number2){
